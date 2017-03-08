@@ -1,0 +1,31 @@
+{
+  "name": "yield-street",
+  "version": "1.0.0",
+  "description": "YieldStreet code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts-with-sass start",
+    "build": "react-scripts-with-sass build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entcheva/yield-street.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "CSS",
+    "HTML"
+  ],
+  "author": "Christina Entcheva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entcheva/yield-street/issues"
+  },
+  "homepage": "https://github.com/entcheva/yield-street#readme",
+  "devDependencies": {
+    "create-react-app-sass": "^1.1.0"
+  }
+}
