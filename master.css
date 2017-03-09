@@ -1,0 +1,79 @@
+.offering {
+  width: 920px;
+	height: 364px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: solid 0.5px #c8c8c8;
+}
+
+.offering-category {
+	/*width: 35px;*/
+	height: 10px;
+	font-family: "Roboto", "Helvetica", Arial, sans-serif;
+	font-size: 10px;
+	/*font-weight: 500;*/
+	color: #969696;
+  padding: 5px 15px 0px 15px;
+}
+
+
+.offering-title {
+  width: 241px;
+	height: 12px;
+	font-family: "Roboto", "Helvetica", Arial, sans-serif;
+	font-size: 12px;
+	color: #3299ff;
+  padding: 0px 15px 0px 15px;
+
+}
+
+.offering-summary {
+  width: 566px;
+	font-family: "Roboto", "Helvetica", Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+  padding: 0px 15px 0px 15px;
+}
+
+.offering-pre-funded-box {
+	width: 607px;
+	height: 172px;
+  background-color: #f2f4f6;
+  margin: 0px 15px 0px 15px;
+}
+
+.oval {
+	width: 25px;
+	height: 25px;
+	background-color: #f0f0f0;
+  margin: 0px 15px 0px 15px;
+  border-radius: 50%;
+  margin: 15px;
+  float: left;
+}
+
+.oval-copy {
+	width: 25px;
+	height: 25px;
+	background-color: #f0f0f0;
+	border: solid 1px #fff;
+  margin: 15px 30px 0px 30px;
+  border-radius: 50%;
+  /*float: right;*/
+  position: absolute;
+  z-index: 10;
+}
+
+.offering-log-in {
+	font-family: "Roboto", "Helvetica", Arial, sans-serif;
+	font-size: 10px;
+	color: #000000;
+  padding: 15px;
+  float: left;
+
+}
+
+a {
+	font-family: "Roboto", "Helvetica", Arial, sans-serif;
+	color: #3299ff;
+}
