@@ -26,7 +26,7 @@
   width: 260px;
 	height: 364px;
   float: right;
-  /*background-color: lightblue;*/
+  /*background-color: #f2f4f6;*/
   margin-right: 15px;
 }
 
@@ -98,16 +98,25 @@ a {
 }
 
 .status-bar {
-  height: 6px;
+  height: 10px;
   width: 100%;
-  background-color: green;
+  background-color: #009a57;
 }
 
 .status-bar-text {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
   text-align: center;
-  background-color: #f0f0f0;
+  /*background-color: #f0f0f0;*/
+  margin: 0;
+  float:left;
+  padding: 10px 0 10px 10px;
+}
+
+.icon {
+  height: 29px;
+  float: right;
+  margin: 5px -10px 0 0 ;
 }
 
 .progress-bar {
@@ -116,26 +125,29 @@ a {
   font-size: 10px;
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
   text-align: center;
+  clear: both;
 }
 
 .progress-bar-title {
   font-size: 10px;
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  text-align: left;
 }
 
 .remaining-sum {
 	font-family: "Roboto", "Helvetica", Arial, sans-serif;
   font-weight: lighter;
-	font-size: 20px;
-  text-align: right;
-  padding-right: 15px;
+	font-size: 24px;
+  text-align: center;
+  /*padding: 25px 0 0 15px;*/
 }
 
 .remaining-text {
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
-  font-size: 10px;
-  text-align: right;
-  padding-right: 15px;
+  font-size: 12px;
+  text-align: center;
+  /*padding-right: 15px;*/
+  color: #646464;
 }
 
 button {
@@ -146,4 +158,11 @@ button {
   border: none;
   font-size: 12px;
   font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.button-center {
+
 }
